@@ -3,6 +3,20 @@ Introduction to R
 Drew Day
 2023-05-19
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - [Introduction](#introduction)
 - [R Interface](#r-interface)
 - [Assigning Variables](#assigning-variables)
@@ -20,6 +34,31 @@ Drew Day
 - [Apply](#apply)
 - [Combining Concepts - Looped
   Functions](#combining-concepts---looped-functions)
+
+<style type="text/css">
+  body{
+  font-size: 13pt;
+}
+code.r{
+  font-size: 14px;
+}
+pre {
+  font-size: 14px
+}
+.section h2 {
+  font-size: 40px;
+  margin-top: 2em !important;
+  margin-bottom: 0.75em;
+}
+.section h3 { 
+  font-size: 30px;
+  padding-top: 1.25em !important;
+  margin-bottom: 0.75em;
+}
+.tocify {
+  font-size: 20px;
+}
+</style>
 
 ## Introduction
 
