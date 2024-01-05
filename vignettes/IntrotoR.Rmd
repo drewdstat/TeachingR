@@ -6,10 +6,47 @@ output:
   html_document:
     toc: true
     toc_float: true
+  github_document:
+    html_preview: true
+
+header-includes:
+  - \usepackage{titling}
+  - \pretitle{\begin{flushleft}\huge\bfseries}
+  - \posttitle{\end{flushleft}}  
+  - \preauthor{\begin{flushleft}\Large}
+  - \postauthor{\end{flushleft}}  
+  - \predate{\begin{flushleft}\large}
+  - \postdate{\end{flushleft}}
 ---
+
+<style type="text/css">
+  body{
+  font-size: 13pt;
+}
+code.r{
+  font-size: 14px;
+}
+pre {
+  font-size: 14px
+}
+.section h2 {
+  font-size: 40px;
+  margin-top: 2em !important;
+  margin-bottom: 0.75em;
+}
+.section h3 { 
+  font-size: 30px;
+  padding-top: 1.25em !important;
+  margin-bottom: 0.75em;
+}
+.tocify {
+  font-size: 20px;
+}
+</style>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, fig.align="center")
+# Fancy markdown guide: https://rstudio4edu.github.io/rstudio4edu-book/doc-fancy.html
 ```
 
 ## Introduction
